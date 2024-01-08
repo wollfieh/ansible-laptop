@@ -1,0 +1,21 @@
+---
+
+- name: stage1
+  hosts: localhost
+  connection: local
+  become: true
+
+
+  tasks:
+  - name: sudoers
+    copy:
+      content: 'wbraun	ALL=(ALL) NOPASSWD:ALL'
+      dest: /etc/sudoers.d/wbraun
+      mode: "0644"
+      owner: root
+
+  - name: install curl
+    apt:
+      name: curl
+      state: present
+

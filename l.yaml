@@ -1,0 +1,8 @@
+---
+  - name: laptop
+    hosts: localhost
+    connection: local
+    become: true
+    roles:
+      - laptop
+

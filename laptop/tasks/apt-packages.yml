@@ -1,0 +1,12 @@
+---
+- name: "apt packages"
+  apt:
+    name:
+      - snapd
+      - gopass
+      - curl
+      - vim
+      - zsh
+      - silversearcher-ag
+      - rclone
+

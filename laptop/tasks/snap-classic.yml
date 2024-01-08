@@ -1,0 +1,12 @@
+---
+- name: "snap classic"
+  snap:
+    state: present
+    classic: true
+    name: 
+      - chezmoi
+      - code
+      - go
+      - microk8s
+      - nvim
+      - obsidian
