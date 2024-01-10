@@ -2,11 +2,20 @@
 - name: "apt packages"
   apt:
     name:
-      - snapd
-      - gopass
       - curl
-      - vim
-      - zsh
-      - silversearcher-ag
+      - gh
+      - gopass
+      - kmymoney
+      - openjdk-21-jdk
       - rclone
+      - screen
+      - silversearcher-ag
+      - snapd
+      - vim
+      - ffmpeg
+      - zsh
+      - mailutils
+      - postfix
+      - mutt
+      - at
 
