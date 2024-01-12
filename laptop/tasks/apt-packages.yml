@@ -2,20 +2,22 @@
 - name: "apt packages"
   apt:
     name:
+      - at
       - curl
+      - docker.io
+      - duply
+      - ffmpeg
       - gh
       - gopass
       - kmymoney
+      - mailutils
+      - mutt
       - openjdk-21-jdk
+      - postfix
       - rclone
       - screen
       - silversearcher-ag
       - snapd
       - vim
-      - ffmpeg
+      - vlc
       - zsh
-      - mailutils
-      - postfix
-      - mutt
-      - at
-
