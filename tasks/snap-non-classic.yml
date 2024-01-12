@@ -1,0 +1,9 @@
+
+---
+- name: "snap non classic"
+  snap:
+    state: present
+    classic: false
+    name: 
+      - firefox
+      - thunderbird

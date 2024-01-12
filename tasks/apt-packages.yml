@@ -1,0 +1,24 @@
+---
+- name: apt packages
+  apt:
+    update_cache: yes
+    name: 
+      - at
+      - curl
+      - docker.io
+      - duply
+      - ffmpeg
+      - gh
+      - gopass
+      - kmymoney
+      - mailutils
+      - mutt
+      - openjdk-21-jdk
+      - postfix
+      - rclone
+      - screen
+      - silversearcher-ag
+      - snapd
+      - vim
+      - vlc
+      - zsh
