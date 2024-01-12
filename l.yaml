@@ -8,5 +8,4 @@
     - ansible.builtin.include_tasks:  tasks/apt-packages.yml
     - ansible.builtin.include_tasks:  tasks/snap-classic.yml
     - ansible.builtin.include_tasks:  tasks/snap-non-classic.yml
-    - ansible.builtin.include_tasks:  tasks/gopass.yml
-      
+    - ansible.builtin.include_tasks:  tasks/go-software.yml

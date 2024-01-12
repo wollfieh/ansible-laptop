@@ -6,7 +6,6 @@
     name: 
       - chezmoi
       - code
-      - go
       - microk8s
       - nvim
       - obsidian

@@ -1,0 +1,19 @@
+- name: install go
+  snap:
+    state: present
+    classic: true
+    name:
+      - go
+
+- name: install gopass
+  tags: gopass
+  shell: GOBIN=/usr/local/bin/ GO111MODULE=on go install  github.com/gopasspw/gopass@latest  
+  args:
+    creates: /usr/local/bin/gopass
+
+- name: lazygit
+  tags: lazygit
+  shell: GOBIN=/usr/local/bin/ GO111MODULE=on go install  github.com/jesseduffield/lazygit@latest  
+  args:
+    creates: /usr/local/bin/lazygit
+
