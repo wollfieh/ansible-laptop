@@ -1,6 +1,0 @@
----
-# tasks file for laptop
-- import_tasks: apt-packages.yml
-- import_tasks: gopass.yml
-- import_tasks: snap-classic.yml
-- import_tasks: snap-non-classic.yml
