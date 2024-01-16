@@ -17,3 +17,8 @@
   args:
     creates: /usr/local/bin/lazygit
 
+- name: rclone
+  tags: rclone
+  shell: GOBIN=/usr/local/bin/ GO111MODULE=on go install  github.com/rclone/rclone@latest
+  args:
+    creates: /usr/local/bin/rclone

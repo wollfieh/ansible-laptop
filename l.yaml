@@ -4,6 +4,7 @@
   connection: local
   become: true
 
+
   tasks:
     - ansible.builtin.include_tasks:  tasks/apt-packages.yml
     - ansible.builtin.include_tasks:  tasks/snap-classic.yml

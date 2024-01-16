@@ -15,7 +15,6 @@
       - mutt
       - openjdk-21-jdk
       - postfix
-      - rclone
       - screen
       - silversearcher-ag
       - snapd
