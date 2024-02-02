@@ -5,5 +5,7 @@
     state: present
     classic: false
     name: 
+      - bw
       - firefox
+      - ijq-m0x41
       - thunderbird
