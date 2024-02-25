@@ -6,6 +6,7 @@
       - at
       - curl
       - docker.io
+      - docker-compose
       - duply
       - ffmpeg
       - gh
