@@ -5,8 +5,8 @@
     name: 
       - at
       - curl
-      - docker.io
       - docker-compose
+      - docker.io
       - duply
       - ffmpeg
       - gh
@@ -18,6 +18,8 @@
       - mediathekview 
       - mutt
       - openjdk-21-jdk
+      - openssh-client
+      - openssh-server
       - postfix
       - psutils
       - rtorrent
